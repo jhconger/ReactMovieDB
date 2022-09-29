@@ -42,8 +42,8 @@ function App() {
         <>
             <Navbar bg="dark" expand="lg" variant="dark">
                 <Container fluid>
-                    <Navbar.Brand href="/home">Movie Database App</Navbar.Brand>
-                    <Navbar.Brand href="/home">Trending</Navbar.Brand>
+                    <Navbar.Brand href="/ReactMovieDB/">Movie Database App</Navbar.Brand>
+                    {/*<Navbar.Brand href="/trending">Trending</Navbar.Brand>*/}
                     <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-3" style={{maxHeight:'100px'}} navbarScroll>
