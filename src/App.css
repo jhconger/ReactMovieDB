@@ -7,16 +7,18 @@ body{
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  background-image: url("header-image.jpg");
+  background-image: url("img.png");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .container{
-  width: 100%;
+  width: 200%;
   margin: 1em auto;
   padding: 5px;
-  background-color: darkslategray;
+  background-color: #0d1212;
+  border-radius: 10px;
 }
 
 .grid{
